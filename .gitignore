@@ -1,0 +1,8 @@
+# Arquivos gerados pelo .NET
+**/bin/
+**/obj/
+
+# Configurações locais de editores
+.vs/
+.vscode/
+*.user
