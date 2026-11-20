@@ -11,3 +11,13 @@ Com o SDK do .NET 10 instalado, execute no terminal desta pasta:
 ```bash
 dotnet run --project JogoDeDados
 ```
+
+## Explorações com IA
+
+Após concluir a versão inicial, explorei as sugestões da atividade com ajuda de IA:
+
+- `Random.Next(1, 21)` simula um dado de 20 lados: o limite inferior é incluído e o superior é excluído.
+- O jogador escolhe um número inteiro positivo de rodadas. Um laço `for` executa cada rodada, e um contador registra quantas delas tiveram uma dupla ou uma trinca, contando apenas uma vez por rodada.
+- Os bônus e os limites dos prêmios permanecem iguais aos da versão inicial. Como os dados agora têm 20 lados, totais maiores e o prêmio de carro se tornam mais frequentes.
+
+O programa mostra o total após o bônus e, ao final, a quantidade de rodadas com bônus. A versão anterior está preservada em `versao-inicial.cs.txt`.
