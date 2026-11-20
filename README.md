@@ -9,6 +9,7 @@ Repositório para acompanhar minha jornada de aprendizado em C# pelo Microsoft L
 | 01 | [Escrever seu primeiro código C#](01-introducao-ao-csharp-parte-1/01-escrever-seu-primeiro-codigo-csharp/) | A preencher |
 | 02 | [Armazenar dados com variáveis em C#](01-introducao-ao-csharp-parte-1/02-armazenar-dados-com-variaveis-em-csharp/) | A preencher |
 | 03 | [Executar operações básicas em números em C#](01-introducao-ao-csharp-parte-1/03-executar-operacoes-basicas-em-numeros/) | Em estudo |
+| 04 | [Adicionar lógica de decisão ao código em C#](01-introducao-ao-csharp-parte-1/04-adicionar-logica-de-decisao-ao-codigo-em-csharp/) | Em estudo |
 
 ## Como abrir no Visual Studio Code
 
@@ -22,10 +23,11 @@ O workspace recomenda a extensão C# Dev Kit. Instale-a no Visual Studio Code pa
 
 ## Como executar
 
-Para executar o projeto da terceira aula, instale o SDK do .NET 10 e, no terminal integrado do Visual Studio Code, a partir da raiz do repositório, rode:
+Para executar os projetos, instale o SDK do .NET 10 e, no terminal integrado do Visual Studio Code, a partir da raiz do repositório, rode o comando correspondente:
 
 ```bash
 dotnet run --project 01-introducao-ao-csharp-parte-1/03-executar-operacoes-basicas-em-numeros/OperacoesBasicas
+dotnet run --project 01-introducao-ao-csharp-parte-1/04-adicionar-logica-de-decisao-ao-codigo-em-csharp/JogoDeDados
 ```
 
 Cada aula pode receber seus próprios exercícios e anotações conforme os estudos avançam.
