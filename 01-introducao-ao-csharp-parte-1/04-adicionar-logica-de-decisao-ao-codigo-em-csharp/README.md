@@ -21,3 +21,12 @@ Após concluir a versão inicial, explorei as sugestões da atividade com ajuda 
 - Os bônus e os limites dos prêmios permanecem iguais aos da versão inicial. Como os dados agora têm 20 lados, totais maiores e o prêmio de carro se tornam mais frequentes.
 
 O programa mostra o total após o bônus e, ao final, a quantidade de rodadas com bônus. A versão anterior está preservada em `versao-inicial.cs.txt`.
+
+## Renovação de assinatura
+
+Projeto em andamento para o desafio de exibir uma mensagem de renovação de assinatura. 
+O programa informa o prazo de vencimento e define o desconto conforme os dias restantes. A exibição da mensagem de desconto será implementada na próxima etapa.
+
+```bash
+dotnet run --project RenovacaoDeAssinatura
+```
