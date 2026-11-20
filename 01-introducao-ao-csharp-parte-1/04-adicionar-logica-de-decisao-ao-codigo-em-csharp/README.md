@@ -24,7 +24,7 @@ O programa mostra o total após o bônus e, ao final, a quantidade de rodadas co
 
 ## Renovação de assinatura
 
-Projeto para o desafio de exibir uma mensagem de renovação de assinatura. O programa informa o prazo de vencimento e, quando aplicável, exibe o desconto disponível conforme os dias restantes.
+Projeto para o desafio de exibir uma mensagem de renovação de assinatura. O programa informa o prazo de vencimento e, quando aplicável, exibe o desconto disponível conforme os dias restantes. No desafio bônus, assinaturas expiradas recebem 30% de desconto. A condição para 2 a 5 dias usa o operador lógico `&&` para explicitar os dois limites.
 
 ```bash
 dotnet run --project RenovacaoDeAssinatura
