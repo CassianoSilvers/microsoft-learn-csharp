@@ -11,7 +11,7 @@ Repositório para acompanhar minha jornada de aprendizado em C# pelo Microsoft L
 | 03 | [Executar operações básicas em números em C#](01-introducao-ao-csharp-parte-1/03-executar-operacoes-basicas-em-numeros/) | Em estudo |
 | 04 | [Adicionar lógica de decisão ao código em C#](01-introducao-ao-csharp-parte-1/04-adicionar-logica-de-decisao-ao-codigo-em-csharp/) | Em estudo |
 
-## Introdução ao C#, Parte 2
+## Criar e executar aplicativos de console C# simples (Introdução ao C#, Parte 2)
 
 | Aula | Conteúdo | Situação |
 | --- | --- | --- |

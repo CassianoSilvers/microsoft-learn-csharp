@@ -15,7 +15,11 @@ while (guessCount < maxGuesses)
 {
     guessCount++;
     Console.Write($"\nGuess #{guessCount}: ");
-    int guess = Convert.ToInt32(Console.ReadLine());
+    int guess;
+    while (!int.TryParse(Console.ReadLine(), out guess))
+    {
+        Console.Write("That is not a valid number. Try again: ");
+    }
 
     // Check the guess and give feedback
 
@@ -32,6 +36,11 @@ while (guessCount < maxGuesses)
     else
     {
         Console.WriteLine("Too high.");
+    }
+
+    if (Math.Abs((long)guess - secretNumber) <= 2)
+    {
+        Console.WriteLine("You're very close!");
     }
 }
 
